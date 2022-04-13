@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.1.3
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jul 16, 2021 at 04:40 PM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 8.0.6
+-- Hôte : 127.0.0.1
+-- Généré le : mer. 13 avr. 2022 à 18:23
+-- Version du serveur : 10.4.24-MariaDB
+-- Version de PHP : 7.4.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `daps`
+-- Base de données : `yannick-store`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `customer`
+-- Structure de la table `customer`
 --
 
 CREATE TABLE `customer` (
@@ -39,17 +39,17 @@ CREATE TABLE `customer` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `customer`
+-- Déchargement des données de la table `customer`
 --
 
 INSERT INTO `customer` (`customerNo`, `firstName`, `lastName`, `email`, `tel`, `username`, `uPassword`, `usertype`) VALUES
 (14, 'admin', 'admin', 'dapsshop1@gmail.com', '0714206877', 'admin', '$2y$10$d4/D1a0ZtyJ55qXz6W.KpOc/qAxv.UXW68rW8uebWzpyUEeqlokHO', 'mainAdmin'),
-(23, 'Yannick', 'Makwenge', 'yannickmakwenge@gmail.com', '+27714206877', 'Boteti123', '$2y$10$flOErJWwA5v2zaac60RJXO0M6dMfIQN1Z1PyR55f7HbIs/XUMD48W', 'user');
+(24, 'Yannick', 'Makwenge', 'yannickmakwenge@gmail.com', '+27714206877', 'yannick', '$2y$10$doF93rCEgJXaTuKhiRzgIuSfkdLyU7rc56yqC8ZGLxKe7Coe.QHZ6', 'user');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `customer_orders`
+-- Structure de la table `customer_orders`
 --
 
 CREATE TABLE `customer_orders` (
@@ -61,17 +61,19 @@ CREATE TABLE `customer_orders` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `customer_orders`
+-- Déchargement des données de la table `customer_orders`
 --
 
 INSERT INTO `customer_orders` (`orderId`, `itemName`, `size`, `price`, `quantity`) VALUES
 (40, 'Nike Air Jordan 3', '6', 250, 2),
-(40, 'Nike Air Jordan 1', '8,5', 300, 1);
+(40, 'Nike Air Jordan 1', '8,5', 300, 1),
+(41, 'Nike Air Jordan 3', '7', 250, 1),
+(41, 'adidas', '6,5', 250, 1);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `order_manager`
+-- Structure de la table `order_manager`
 --
 
 CREATE TABLE `order_manager` (
@@ -83,16 +85,17 @@ CREATE TABLE `order_manager` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `order_manager`
+-- Déchargement des données de la table `order_manager`
 --
 
 INSERT INTO `order_manager` (`orderId`, `fName`, `deliveryTel`, `deliveryAddress`, `pay_method`) VALUES
-(40, 'Yannick Makwenge', '+27714206877', '12 College road, Rondebosh, Capetown, Western Cape, 7700', 'COD');
+(40, 'Yannick Makwenge', '+27714206877', '12 College road, Rondebosh, Capetown, Western Cape, 7700', 'COD'),
+(41, 'Yannick Makwenge', '+27714206877', '12 College road, Rondebosh, Capetown, Western Cape, 7700', 'COD');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `product`
+-- Structure de la table `product`
 --
 
 CREATE TABLE `product` (
@@ -106,7 +109,7 @@ CREATE TABLE `product` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `product`
+-- Déchargement des données de la table `product`
 --
 
 INSERT INTO `product` (`productNo`, `image`, `productName`, `description`, `size`, `price`, `productOrder`) VALUES
@@ -117,7 +120,7 @@ INSERT INTO `product` (`productNo`, `image`, `productName`, `description`, `size
 -- --------------------------------------------------------
 
 --
--- Table structure for table `pwdreset`
+-- Structure de la table `pwdreset`
 --
 
 CREATE TABLE `pwdreset` (
@@ -129,57 +132,57 @@ CREATE TABLE `pwdreset` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Indexes for dumped tables
+-- Index pour les tables déchargées
 --
 
 --
--- Indexes for table `customer`
+-- Index pour la table `customer`
 --
 ALTER TABLE `customer`
   ADD PRIMARY KEY (`customerNo`);
 
 --
--- Indexes for table `order_manager`
+-- Index pour la table `order_manager`
 --
 ALTER TABLE `order_manager`
   ADD PRIMARY KEY (`orderId`);
 
 --
--- Indexes for table `product`
+-- Index pour la table `product`
 --
 ALTER TABLE `product`
   ADD PRIMARY KEY (`productNo`);
 
 --
--- Indexes for table `pwdreset`
+-- Index pour la table `pwdreset`
 --
 ALTER TABLE `pwdreset`
   ADD PRIMARY KEY (`pwdResetNo`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT pour les tables déchargées
 --
 
 --
--- AUTO_INCREMENT for table `customer`
+-- AUTO_INCREMENT pour la table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `customerNo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `customerNo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
--- AUTO_INCREMENT for table `order_manager`
+-- AUTO_INCREMENT pour la table `order_manager`
 --
 ALTER TABLE `order_manager`
-  MODIFY `orderId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `orderId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
--- AUTO_INCREMENT for table `product`
+-- AUTO_INCREMENT pour la table `product`
 --
 ALTER TABLE `product`
   MODIFY `productNo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
--- AUTO_INCREMENT for table `pwdreset`
+-- AUTO_INCREMENT pour la table `pwdreset`
 --
 ALTER TABLE `pwdreset`
   MODIFY `pwdResetNo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;

@@ -9,15 +9,15 @@
         </div>
         <div class="social-media">
             <ul class="">
-                <li class="social-icon"><a href="https://www.instagram.com/daps_cpt/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-icon"><a href="https://www.facebook.com/DAPSCPT"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li class="social-icon"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-icon"><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
                 <li class="social-icon"><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
             </ul>
         </div>
 
     </div>
     <div class="outer-footer">
-        &copy;2021 Copyright Daps. All Rights Reserved.
+        &copy;2021 Copyright Yannick Makwenge. All Rights Reserved.
     </div>
 </footer>
 

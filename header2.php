@@ -10,7 +10,7 @@ session_start();
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daps</title>
+  <title>E-commerce Website</title>
   <!--link for the cart icon-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--link for the css style-->
@@ -24,7 +24,7 @@ session_start();
 <body>
   <header class="enri">
     <nav class="navbar">
-      <div class="brand-title font-x3">Daps
+      <div class="brand-title font-x3">Yannick Store
       </div>
       <a href="#" class="toggle-button">
         <span class="bar"></span>
