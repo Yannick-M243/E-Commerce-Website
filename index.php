@@ -3,7 +3,7 @@ require "header2.php";
 ?>
 
 <main class="enri">
-    <h1>Home</h1>
+    <h1>Yannick Store</h1>
 
     <!--2x2 Image text grid-->
     <section class="wrapper" id="features-grid">
@@ -22,7 +22,7 @@ require "header2.php";
                     <div class="m-3">
                         <h2 class="font-x2">Sneakers</h2>
                         <div>
-                            <p class="font-xs">Daps focus on selective brands with personal touch designs, fabric and culture on every pair sold by us.
+                            <p class="font-xs">Yannick Store focus on selective brands with personal touch designs, fabric and culture on every pair sold by us.
                                 You can find anything from a OG Nike Air Force to some wild chuck Taylor ready for you everyday styling.</p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ require "header2.php";
                     <div class="m-3">
                         <h2 class="font-x2">StreetWear</h2>
                         <div>
-                            <p class="font-xs">Daps focus on selective brands with personal touch designs, fabric and culture on every garments sold by us.
+                            <p class="font-xs">Yannick focus on selective brands with personal touch designs, fabric and culture on every garments sold by us.
                                 You can find anything from OG Palace to some awesome graphict tees ready for your casual dressing. </p>
                         </div>
                     </div>

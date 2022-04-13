@@ -8,7 +8,7 @@ if (isset($_POST['pwdreset-submit'])) {
     $token = random_bytes(32);
 
     //create a link to the website
-    $url = "http://localhost//Daps_Website/create-password.php?selector=" . $selector . "&validator=" . bin2hex($token);
+    $url = "http://localhost//E-Commerce-Website/create-password.php?selector=" . $selector . "&validator=" . bin2hex($token);
 
     //creating an expiring date for the token
     $expires = date("U") + 1800;
@@ -56,9 +56,10 @@ if (isset($_POST['pwdreset-submit'])) {
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = '465';
     $mail->isHTML();
-    $mail->Username = 'dapsshop1@gmail.com';
-    $mail->Password = 'daps0.1#';
-    $mail->SetFrom('dapsshop1@gmail.com');
+    //Gmail account only
+    $mail->Username = 'email@gmail.com';
+    $mail->Password = '*****';
+    $mail->SetFrom('email@gmail.com');
     $mail->Subject = 'Password Reset';
     $mail->Body = '<p> We recieved a password reset request. The link to reset your password is below, if you did not make this request, plese ignore this email</p>';
     $mail->Body .= '<p>Here is your password reset link: </br>';

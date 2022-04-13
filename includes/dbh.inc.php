@@ -4,7 +4,7 @@
 $servername = "localhost";
 $dBUsername = "root";
 $dBPassword = "";
-$dBName = "daps";
+$dBName = "yannick-store";
 
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
