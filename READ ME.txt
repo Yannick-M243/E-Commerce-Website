@@ -1,8 +1,0 @@
-
--Admin Account
-username: admin
-password: daps2021
-
--Paypal customer test account
-email: sb-lhick6589504@personal.example.com
-password: User2443
