@@ -72,3 +72,5 @@ else {
     header("Location: ../index.php");
     exit();
 }
+
+//Yannick Makwenge - E-Commerce-Website

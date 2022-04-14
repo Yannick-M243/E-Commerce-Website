@@ -37,3 +37,5 @@ require "header2.php";
 <?php
 require "footer.php";
 ?>
+
+<!--Yannick Makwenge - E-Commerce-Website-->

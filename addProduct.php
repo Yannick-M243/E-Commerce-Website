@@ -155,3 +155,5 @@ if (isset($_SESSION['adminId'])) {
 }
 require "footer.php";
 ?>
+
+<!--Yannick Makwenge - E-Commerce-Website-->

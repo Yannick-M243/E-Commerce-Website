@@ -65,3 +65,4 @@ if (isset($_SESSION['userId'])) {
 }
 require "footer.php";
 ?>
+<!--Yannick Makwenge - E-Commerce-Website-->

@@ -129,3 +129,5 @@ if (isset($_POST['addProduct-submit'])) {
     header("Location: ../index.php");
     exit();
 }
+
+//Yannick Makwenge - E-Commerce-Website

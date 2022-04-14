@@ -49,3 +49,5 @@ if (isset($_POST['delete-user'])) {
     header("Location: ../index.php");
     exit();
 }
+
+//Yannick Makwenge - E-Commerce-Website

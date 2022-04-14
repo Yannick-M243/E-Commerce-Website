@@ -42,7 +42,7 @@ require "header2.php";
                     <div class="m-3">
                         <h2 class="font-x2">StreetWear</h2>
                         <div>
-                            <p class="font-xs">Yannick focus on selective brands with personal touch designs, fabric and culture on every garments sold by us.
+                            <p class="font-xs">Yannick Store focus on selective brands with personal touch designs, fabric and culture on every garments sold by us.
                                 You can find anything from OG Palace to some awesome graphict tees ready for your casual dressing. </p>
                         </div>
                     </div>
@@ -55,3 +55,4 @@ require "header2.php";
 <?php
 require "footer.php";
 ?>
+<!--Yannick Makwenge - E-Commerce-Website-->

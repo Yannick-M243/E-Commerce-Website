@@ -71,3 +71,5 @@ if (isset($_POST['pwdreset-submit'])) {
 } else {
     header("Location: ../index.php");
 }
+
+//Yannick Makwenge - E-Commerce-Website

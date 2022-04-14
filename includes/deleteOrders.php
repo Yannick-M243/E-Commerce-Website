@@ -32,3 +32,5 @@ if (isset($_POST['delete-order'])) {
     header("Location: ../index.php");
     exit();
 }
+
+//Yannick Makwenge - E-Commerce-Website

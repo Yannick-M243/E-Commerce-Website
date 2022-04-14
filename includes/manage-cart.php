@@ -66,3 +66,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
+
+//Yannick Makwenge - E-Commerce-Website

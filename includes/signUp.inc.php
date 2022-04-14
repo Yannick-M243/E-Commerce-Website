@@ -107,3 +107,5 @@ if (isset($_POST['signup-submit'])) {
     header("Location: ../index.php");
     exit();
 }
+
+//Yannick Makwenge - E-Commerce-Website
