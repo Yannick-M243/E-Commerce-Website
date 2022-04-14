@@ -43,3 +43,18 @@ This project was built using:
 - Web Server: XAMPP
 - MySQL administration tool: phpMyAdmin 
 
+## Prerequisite
+- [XAMPP](https://www.apachefriends.org/fr/index.html).
+- [Visual Studio Code](https://code.visualstudio.com/download).
+
+## Installation (Windows)
+- Install XAMPP
+- XAMPP control panel
+- Start Apache and MySQL server 
+- Clone E-Commerce-Website in the “htdocs” folder inside the folder “xampp” on the computer   drive (C:\xampp\htdocs)
+- Go back to XAMPP control panel, and click on the button admin next to MySQL
+- Create a Database called “yannick-store"
+- Go inside the database and click on “import”
+- Click on the button "Choose File" and select the "yannick-store.sql" file inside the folder database from E-Commerce-Website (C:\xampp\htdocs\E-Commerce-Website\database\yannick-store.sql) 
+- Click on "Go" to import the database tables necessary to launch the web app
+- Clik on this link: [E-Commerce-Website](http://localhost//E-Commerce-Website/index.php).
