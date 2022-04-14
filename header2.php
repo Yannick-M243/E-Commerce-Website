@@ -24,7 +24,7 @@ session_start();
 <body>
   <header class="enri">
     <nav class="navbar">
-      <div class="brand-title font-x3">Yannick Store
+      <div class="brand-title font-x3">YBM Store
       </div>
       <a href="#" class="toggle-button">
         <span class="bar"></span>

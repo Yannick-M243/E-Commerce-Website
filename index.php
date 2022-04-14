@@ -3,7 +3,7 @@ require "header2.php";
 ?>
 
 <main class="enri">
-    <h1>Yannick Store</h1>
+    <h1>Home</h1>
 
     <!--2x2 Image text grid-->
     <section class="wrapper" id="features-grid">
