@@ -65,8 +65,8 @@ inside the folder database from E-Commerce-Website (C:\xampp\htdocs\E-Commerce-W
 - If the site cannot be reached open XAMPP Control panel and make sure that the Apache and MySQL server have started
 - If you already have a configuration for XAMPP open VS Code and change the "dbh.inc.php" file inside the folder "includes"
 with your server settings 
-
+- To access the admin side check the "password.txt" file
 ## Contributor & Contact
 
 - Yannick Boteti Makwenge : yannickmakwenge@gmail.com
-- Repository link : [http://localhost//E-Commerce-Website/index.php]([http://localhost//E-Commerce-Website/index.php]).
+- Repository link : [http://localhost//E-Commerce-Website/index.php](http://localhost//E-Commerce-Website/index.php).
