@@ -48,13 +48,25 @@ This project was built using:
 - [Visual Studio Code](https://code.visualstudio.com/download).
 
 ## Installation (Windows)
-- Install XAMPP
-- XAMPP control panel
-- Start Apache and MySQL server 
-- Clone E-Commerce-Website in the “htdocs” folder inside the folder “xampp” on the computer   drive (C:\xampp\htdocs)
-- Go back to XAMPP control panel, and click on the button admin next to MySQL
-- Create a Database called “yannick-store"
-- Go inside the database and click on “import”
-- Click on the button "Choose File" and select the "yannick-store.sql" file inside the folder database from E-Commerce-Website (C:\xampp\htdocs\E-Commerce-Website\database\yannick-store.sql) 
-- Click on "Go" to import the database tables necessary to launch the web app
-- Clik on this link: [E-Commerce-Website](http://localhost//E-Commerce-Website/index.php).
+1. Install XAMPP
+2. XAMPP control panel
+3. Start Apache and MySQL server 
+4. Clone E-Commerce-Website in the “htdocs” folder inside the folder “xampp” on the computer   drive (C:\xampp\htdocs)
+5. Go back to XAMPP control panel, and click on the button admin next to MySQL
+6. Create a Database called “yannick-store"
+7. Go inside the database and click on “import”
+8. Click on the button "Choose File" and select the "yannick-store.sql" file 
+inside the folder database from E-Commerce-Website (C:\xampp\htdocs\E-Commerce-Website\database\yannick-store.sql) 
+9. Click on "Go" to import the database tables necessary to launch the web app
+10. Clik on this link: [http://localhost//E-Commerce-Website/index.php](http://localhost//E-Commerce-Website/index.php).
+
+#### Notice
+- If the page is not found check if the poject is in the correct folder
+- If the site cannot be reached open XAMPP Control panel and make sure that the Apache and MySQL server have started
+- If you already have a configuration for XAMPP open VS Code and change the "dbh.inc.php" file inside the folder "includes"
+with your server settings 
+
+## Contributor & Contact
+
+- Yannick Boteti Makwenge : yannickmakwenge@gmail.com
+- Repository link : [http://localhost//E-Commerce-Website/index.php]([http://localhost//E-Commerce-Website/index.php]).
