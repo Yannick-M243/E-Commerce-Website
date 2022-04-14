@@ -12,7 +12,7 @@ E-Commerce-Website contains two sides; the customer side and the administration 
 #### The customer side enables users to:
 - Register
 - Log in
-- Chose and select items to add to the cart
+- Choose and select items to add to the cart
 - Manage the cart
 - Choose the type of payment 
 - Place an order 
@@ -39,6 +39,7 @@ This project was built using:
 
 
 #### Tools
+- Bootstrap
 - IDE: Visual Studio Code
 - Web Server: XAMPP
 - MySQL administration tool: phpMyAdmin 
