@@ -69,4 +69,4 @@ with your server settings
 ## Contributor & Contact
 
 - Yannick Boteti Makwenge : yannickmakwenge@gmail.com
-- Repository link : [http://localhost//E-Commerce-Website/index.php](http://localhost//E-Commerce-Website/index.php).
+- Repository link : [https://github.com/Yannick-M243/E-Commerce-Website](https://github.com/Yannick-M243/E-Commerce-Website).
