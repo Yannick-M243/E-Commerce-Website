@@ -1,4 +1,4 @@
-<footer class="footer font-xs enri">
+<footer class="footer">
     <div class="inner-footer">
         <div class="quick-links">
             <ul>
@@ -20,7 +20,6 @@
         &copy;2021 Copyright Yannick Makwenge. All Rights Reserved.
     </div>
 </footer>
-
 </body>
 
 </html>

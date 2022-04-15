@@ -3,8 +3,9 @@ require "header2.php";
 if (isset($_SESSION['adminId'])) {
 ?>
 
-    <main class="enri">
-        <div class="font-xs">
+    <main class="enri table-btn">
+        <section class="container">
+        <div>
             <div class="row">
                 <div class=col-lg-12>
                     <table class="table">
@@ -93,6 +94,7 @@ if (isset($_SESSION['adminId'])) {
                 </div>
             </div>
         </div>
+    </section>
     </main>
 <?php
 }

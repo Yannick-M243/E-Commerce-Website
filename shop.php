@@ -1,16 +1,13 @@
 <?php
 require "header2.php";
-
-
 ?>
-<main class="enri">
-    <h1>Shop</h1>
-    <section>
 
-        <div class="container">
+<main class="enri shop">
+    <section>
+    <h1>Shop</h1>
+    <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <?php
-
                 include_once 'includes/dbh.inc.php';
                 $sql = "SELECT * FROM `product` ORDER BY `productOrder` DESC";
                 $stmt = mysqli_stmt_init($conn);
@@ -62,10 +59,8 @@ require "header2.php";
                     }
                 }
 ?>
-    </section>
-
-
-</main>
+</section>
+    </main>
 <?php
 require "footer.php";
 ?>

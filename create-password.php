@@ -4,8 +4,9 @@ require "header2.php";
 ?>
 
 <main class="enri">
-    <div class="signup-login font-xs">
-        <h2 class="font-x2">Create a new Password</h2>
+    <section class="container">
+    <div class="signup-login">
+        <h2>Create a new Password</h2>
         <?php
         //Grap the selector and validator from the url
         $selector = $_GET['selector'];
@@ -33,6 +34,7 @@ require "header2.php";
         }
         ?>
     </div>
+    </section>
 </main>
 <?php
 require "footer.php";

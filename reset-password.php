@@ -4,6 +4,7 @@ require "header2.php";
 ?>
 
 <main class="enri">
+    <section class="container">
     <div class="signup-login font-xs">
         <h2 class="font-x2">Reset Password</h2>
         <form action="includes/reset-request.inc.php" method="POST">
@@ -19,6 +20,7 @@ require "header2.php";
             ?>
         </form>
     </div>
+        </section>
 </main>
 <?php
 require "footer.php";

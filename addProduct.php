@@ -4,9 +4,8 @@ if (isset($_SESSION['adminId'])) {
 ?>
 
     <main class="enri">
-        <section>
-            <div class="container font-xs">
-                <h2 class="font-x2">Add a product</h2>
+        <section class="container">
+                <h2>Add a product</h2>
                 <form action="./includes/addProduct.inc.php" method="post" enctype="multipart/form-data">
                     <table class="table">
                         <tr>
@@ -91,12 +90,11 @@ if (isset($_SESSION['adminId'])) {
                     }
                 }
                 ?>
-            </div>
         </section>
         <section>
 
-            <div class="container">
-                <h2 class="font-x2">Items added</h2>
+            <div class="container">               
+                 <h2 class="font-x2">Items added</h2>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <?php
 
@@ -149,8 +147,8 @@ if (isset($_SESSION['adminId'])) {
                         }
                     }
     ?>
-        </section>
-    </main>
+     </section>
+</main>
 <?php
 }
 require "footer.php";

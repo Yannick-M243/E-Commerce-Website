@@ -3,8 +3,9 @@ require "header2.php";
 if (isset($_SESSION['userId'])) {
 ?>
     <main class="enri">
-        <div class="signup-login font-xs">
-            <h2 class="font-x2">Account Settings</h2>
+        <section class="container">
+        <div class="signup-login">
+            <h2 >Account Settings</h2>
             <?php
             // Input Validation.
             if (isset($_GET['error'])) {
@@ -26,7 +27,7 @@ if (isset($_SESSION['userId'])) {
             <!-- Displaying the data from the customer database table into the form. -->
             <form action="includes/userSettings.inc.php" method="post">
 
-                <table class="table">
+                <table class="table table-btn">
                     <tr>
                         <td>Username:</td>
                         <td> <input class="w-50" type="text" name="username" value="<?php echo $_SESSION['userUsername']; ?>"></td>
@@ -58,9 +59,9 @@ if (isset($_SESSION['userId'])) {
             </tr>
             </table>
         </div>
-
-        </body>
+    </section>
     </main>
+</body>
 <?php
 }
 require "footer.php";

@@ -3,9 +3,8 @@ require "header2.php";
 
 ?>
 
-<main class="enri">
-
-    <div class="container">
+<main class="enri table-btn">
+    <section class="container">
         <table class="table">
             <tr>
                 <th width="10%">Item #</th>
@@ -14,7 +13,6 @@ require "header2.php";
                 <th width="10%">Price</th>
                 <th width="10%">Quantity</th>
                 <th width="15%">Total</th>
-
             </tr>
             <?php
             $total = 0;
@@ -131,8 +129,7 @@ require "header2.php";
             }
         }
         ?>
-    </div>
-
+    </section>
 </main>
 <script>
     //calculating the total amount according to the quantity and the price

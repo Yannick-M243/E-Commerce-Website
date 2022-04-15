@@ -4,7 +4,8 @@ if (isset($_SESSION['adminId'])) {
 ?>
 
     <main class="enri">
-        <div class="font-xs">
+        <section class="container table-btn">
+        <div>
             <?php
             if (isset($_GET['error'])) {
                 if ($_GET['error'] == 'mainAccount') {
@@ -14,7 +15,7 @@ if (isset($_SESSION['adminId'])) {
                 }
             }
             ?>
-            <div class="row">
+            <div class="row order">
                 <div class=col-lg-12>
                     <table class="table">
                         <thead>
@@ -68,6 +69,7 @@ if (isset($_SESSION['adminId'])) {
                 </div>
             </div>
         </div>
+                        </section>
     </main>
 <?php
 }

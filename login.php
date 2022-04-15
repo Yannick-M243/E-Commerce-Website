@@ -2,9 +2,10 @@
 require "header2.php";
 ?>
 <main class="enri">
-    <div class="signup-login font-xs">
+<section class="conatiner">
+    <div class="signup-login">
         <h2 class="font-x2">Login</h2>
-        <form class="font-xs" action="./includes/login.inc.php" method="post">
+        <form action="./includes/login.inc.php" method="post">
             <?php
             if (isset($_GET["newpwd"])) {
                 if ($_GET["newpwd"] == "passwordupdated") {
@@ -33,6 +34,7 @@ require "header2.php";
         }
         ?>
     </div>
+    </section>
 </main>
 <?php
 require "footer.php";

@@ -22,7 +22,7 @@ session_start();
 </head>
 
 <body>
-  <header class="enri">
+  <header>
     <nav class="navbar">
       <div class="brand-title font-x3">YBM Store
       </div>

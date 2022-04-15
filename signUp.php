@@ -4,30 +4,31 @@ require "header2.php";
 ?>
 
 <main class="enri">
-    <div class="signup-login font-xs">
+    <section class="container">
+    <div class="signup-login">
         <h2 class="font-x2">Sign Up</h2>
         <form action="./includes/signUp.inc.php" method="post">
 
             <label for="firstname">First name :</label><br>
-            <input class="field w-40" type="text" name="firstname" id="firstname"><br>
+            <input class="field" type="text" name="firstname" id="firstname"><br>
 
             <label for="lastname">Last name :</label><br>
-            <input class="field w-40" type="text" name="lastname" id="lastname"><br>
+            <input class="field" type="text" name="lastname" id="lastname"><br>
 
             <label for="email">Email Address :</label><br>
-            <input class="field w-40" type="email" name="email" id="email"><br>
+            <input class="field" type="email" name="email" id="email"><br>
 
             <label for="tel">Phone Number :</label><br>
-            <input class="field w-40" type="text" name="tel" id="tel"><br>
+            <input class="field" type="text" name="tel" id="tel"><br>
 
             <label for="username">Username :</label><br>
-            <input class="field w-40" type="text" name="username" id="username"><br>
+            <input class="field" type="text" name="username" id="username"><br>
 
             <label for="password">Password :</label><br>
-            <input class="field w-40" type="password" name="password" id="password"><br>
+            <input class="field" type="password" name="password" id="password"><br>
 
             <label for="cpassword">Confirm Password :</label><br>
-            <input class="field w-40" type="password" name="cpassword" id="cpassword"><br>
+            <input class="field" type="password" name="cpassword" id="cpassword"><br>
 
             <button type="submit" name="signup-submit" class="button w-40 font-xs" Sign Up>Sign Up</button>
 
@@ -52,6 +53,7 @@ require "header2.php";
         }
         ?>
     </div>
+    </section>
 </main>
 <?php
 require "footer.php";
