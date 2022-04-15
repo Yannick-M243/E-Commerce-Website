@@ -21,7 +21,7 @@
 
 .brand-title {
   font-size: 1.5rem;
-  margin-left: 50px;
+  margin-left: 55px;
 }
 
 .navbar-links {
@@ -263,6 +263,7 @@ form .field {
 .container {
   margin-top: 25px !important;
   margin-bottom: 25px !important;
+  padding: 0 !important;
 }
 
 footer {
