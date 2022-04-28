@@ -105,6 +105,12 @@
   .navbar-links.active {
     display: flex;
   }
+  .brand-title {
+    margin: 0 !important;
+  }
+  .features-grid-row-img{
+    padding: 0 5px !important;
+  }
 }
 
 .enri {
@@ -267,6 +273,7 @@ form .field {
 }
 
 footer {
+  min-height: 160px;
   background-color: #303030;
   font-family: "Enriqueta", sans-serif;
 }
@@ -274,17 +281,18 @@ footer {
 .inner-footer {
   margin: 0;
   padding: 0;
+  height: auto;
 }
 
 .social-media {
+  height: auto;
   display: flex;
 }
 
 .social-media ul {
-  padding: 10px;
   display: flex;
-  height: 30px;
   margin: auto;
+  padding: 0;
 }
 
 .social-icon {
@@ -303,21 +311,31 @@ footer {
 }
 
 .quick-links {
+  padding: 20px;
   display: flex;
 }
 
 .quick-links ul {
   display: flex;
   margin: auto;
+  padding: 0;
 }
-
+@media screen and (max-width: 440px) {
+  .quick-links ul {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .quick-links ul li {
+    padding: 5px 0 !important;
+  }
+}
 .quick-items {
   list-style: none;
 }
 
 .quick-items a {
   text-decoration: none;
-  padding: 0px 15px;
+  padding: 0px 30px;
   color: #fff;
 }
 
@@ -326,8 +344,7 @@ footer {
 }
 
 .outer-footer {
-  margin: 30px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   color: #fff;
 }
@@ -361,4 +378,8 @@ footer {
 .text-container {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+main {
+  min-height: 400px;
 }
