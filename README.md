@@ -4,7 +4,7 @@
 E-Commerce-Website was my first project, as specified in the project name, it's an e-commerce website
 designed and built by myself when I was in the last year of my IT degree (2021).
 
-NB: Before going further I would like to specify that this was an academic project, which means that is not a 100% complete project and 
+NB: Before going further I would like to specify that this was an academic project, which means that is not a 100% complete and functional project, 
 a lot of improvements could have been made since I worked on it.
 
 E-Commerce-Website contains two sides; the customer side and the administration side.
